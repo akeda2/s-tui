@@ -69,4 +69,4 @@ class FreqSource(Source):
 
     def get_top(self):
         logging.debug("Returning top %s", self.top_freq)
-        return self.top_freq
+        return self.top_freq / 1000
